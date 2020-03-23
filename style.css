@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.blockH1{
+    width: 500px;
+    height: 70px;
+    border:2px solid grey;
+    margin: 50px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+h1{
+    font: 400 40px/1.65 'Tahoma';
+}
+#poke-container div{
+    width: 120px; 
+    height: 200px;
+    border: 1px solid grey;
+    display: flex;
+    flex-direction: column;
+}
+#poke-container div img{
+    width: 100px;
+    height: 100px;
+    order: 0;
+}
+#poke-container div h4{
+    order: 1
+}
+#poke-container div p{
+    order: 2;
+}
+#poke-container div ul{
+    order: 3;
+}
+#stats-container{
+    display: none;
+    width: 300px;
+    height: 500px;
+    border: 2px solid grey;
+    position: absolute;
+    left: 60%;
+    top: 300px;
+}
+#stats-container h3{
+    display: none;
+}
+#stats-container .active{
+    display: block;
+}
